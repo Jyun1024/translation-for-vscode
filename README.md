@@ -1,10 +1,4 @@
 # Translation for VSCode
-
-![Version](https://vsmarketplacebadge.apphb.com/version-short/yourpublisher.translation-for-vscode.svg)
-![Installs](https://vsmarketplacebadge.apphb.com/installs/yourpublisher.translation-for-vscode.svg)
-![Rating](https://vsmarketplacebadge.apphb.com/rating-short/yourpublisher.translation-for-vscode.svg)
-![Downloads](https://vsmarketplacebadge.apphb.com/downloads/yourpublisher.translation-for-vscode.svg)
-
 Translation for VSCode 是一款能够在 Visual Studio Code 编辑器内提供无缝翻译功能的扩展。
 
 ## 功能特性
