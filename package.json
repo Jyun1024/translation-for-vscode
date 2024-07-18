@@ -1,8 +1,8 @@
 {
   "name": "translation-for-vscode",
   "displayName": "Translation for VSCode",
-  "description": "Translation for VSCode是一个基于 VSCode 的翻译插件。它集成了谷歌翻译、微软翻译、DeepL 翻译、OpenAI 翻译、有道翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
-  "version": "0.0.1",
+  "description": "Translation for VSCode是一个基于 VSCode 的翻译插件。它集成了有道翻译、百度翻译、DeepL 翻译、OpenAI 翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
+  "version": "0.0.2",
   "publisher": "Jyun",
   "icon": "logo.png",
   "repository": {
