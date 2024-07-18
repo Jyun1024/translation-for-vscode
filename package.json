@@ -7,7 +7,7 @@
   "icon": "logo.png",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/yourrepository.git"
+    "url": "git+https://github.com/Jyun1024/translation-for-vscode.git"
   },
   "engines": {
     "vscode": "^1.91.0"
