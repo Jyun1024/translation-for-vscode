@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "Jyun",
   "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/yourrepository.git"
+  },
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -27,8 +31,8 @@
     },
     "commands": [
       {
-        "command": "translation-for-vscode.helloWorld",
-        "title": "Hello World"
+        "command": "translation-for-vscode.translate",
+        "title": "翻译选中的文本"
       }
     ]
   },

@@ -125,7 +125,7 @@ export function activate(context: vscode.ExtensionContext) {
 	//该命令已在package.json文件中定义 
 	//现在使用registerCommand提供命令的实现 
 	//commandId参数必须与package.json中的命令字段匹配
-	const disposable = vscode.commands.registerCommand('translation-for-vscode.helloWorld', async () => {
+	const disposable = vscode.commands.registerCommand('translation-for-vscode.translate', async () => {
 
 		// const apiKey = await getApiKey();
 
