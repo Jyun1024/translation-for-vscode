@@ -32,7 +32,7 @@ Translation for VSCode 是一款能够在 Visual Studio Code 编辑器内提供�
 1. 打开 VSCode 用户设置 (`Ctrl+,`)。
 2. 搜索 `translation-for-vscode`。
 3. 调整默认语言、翻译服务等设置。
-4. 目前需要手动设置翻译快捷键，暂不支持切换翻译引擎。
+4. 目前暂不支持切换翻译引擎。
 
 ## 贡献
 
