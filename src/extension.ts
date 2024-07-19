@@ -4,7 +4,7 @@ import * as vscode from 'vscode';
 
 import axios from 'axios';
 import * as crypto from 'crypto';
-import { log } from 'console';
+
 
 function isFirstCharEnglish(word: string): boolean {
 	return /^[A-Za-z]/.test(word[0]);
@@ -17,7 +17,7 @@ function isFirstCharChinese(word: string): boolean {
 async function fanyiByYoudao(word: string): Promise<string> {
 	if (!word.trim()) return word;
 	const wordList = word.trim().split(/(?<=[a-z])(?=[A-Z])|[\-_<>\n]/).map(word => word.toLowerCase());
-	console.log(wordList);
+	// console.log(wordList);
 	const words = wordList.filter(item => item.trim() !== '').join(' ');
 
 	let lang = ['AUTO', 'AUTO'];

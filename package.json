@@ -1,8 +1,8 @@
 {
   "name": "translation-for-vscode",
   "displayName": "Translation for VSCode",
-  "description": "Translation for VSCode是一个基于 VSCode 的翻译插件。它集成了有道翻译、百度翻译、DeepL 翻译、OpenAI 翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
-  "version": "0.0.3",
+  "description": "Translation for VSCode是一个基于 VSCode 的英汉互译 翻译扩展插件。它集成了有道翻译、百度翻译、DeepL 翻译、OpenAI 翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
+  "version": "1.0.6",
   "publisher": "Jyun",
   "icon": "logo.png",
   "repository": {
@@ -25,7 +25,7 @@
         "translation-for-vscode.apiKey": {
           "type": "string",
           "default": "youdao:public-apikey-spider",
-          "description": "翻译服务的API密钥，目前支持 baidu、youdao、deepl、openai 如使用百度翻译 输入 baidu:XXX..."
+          "description": "翻译服务的API密钥，支持 baidu、youdao、deepl等如使用百度翻译 输入 baidu:XXX..."
         }
       }
     },
@@ -33,6 +33,13 @@
       {
         "command": "translation-for-vscode.translate",
         "title": "翻译选中的文本"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "translation-for-vscode.translate",
+        "key": "ctrl+shift+t",
+        "when": "editorTextFocus"
       }
     ]
   },

@@ -1,15 +1,17 @@
 # Translation for VSCode
-Translation for VSCode 是一款能够在 Visual Studio Code 编辑器内提供无缝翻译功能的扩展。
+Translation for VSCode 是一款能够在 Visual Studio Code 编辑器内提供英汉互译翻译功能的扩展。
 
 ## 功能特性
 
+- **开发者优化**: 支持大小驼峰命名、下划线、中划线等单词分割方式。
+- **英汉互译**: 判断选中的首个文字，自动识别中英文进行互译。
 - **即时翻译**: 使用简单的快捷键即可即时翻译文本。
 - **多语言支持**: 支持广泛的语言，确保您可以进行双向翻译。
 - **可定制化**: 可通过设置自定义翻译行为，以满足您的需求。
 
 ## 安装说明
 
-您可以从 [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yourpublisher.translation-for-vscode) 安装此扩展。
+您可以从 [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jyun.translation-for-vscode) 安装此扩展。
 
 1. 打开 Visual Studio Code。
 2. 进入扩展视图 (`Ctrl+Shift+X`)。
