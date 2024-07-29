@@ -4,7 +4,7 @@ import * as vscode from 'vscode';
 
 import axios from 'axios';
 import * as crypto from 'crypto';
-
+import { showTooltip, showInfo } from './tooltip';
 
 function isFirstCharEnglish(word: string): boolean {
 	return /^[A-Za-z]/.test(word[0]);
@@ -62,38 +62,6 @@ async function fanyiByYoudao(word: string): Promise<string> {
 	}
 }
 
-// 测试示例
-// fanyi_by_youdao("Hello").then(console.log);
-// fanyi_by_youdao("你好").then(console.log);
-
-
-
-
-
-function tips(editor: vscode.TextEditor) {
-	// 创建一个装饰器类型
-	const decorationType = vscode.window.createTextEditorDecorationType({
-		after: {
-			contentText: ` - 这是一个提示信息`,
-			// border: '1px solid gray',
-			// backgroundColor: 'yellow',
-			// color: 'black',
-			margin: '0 0 0 20px'
-		}
-	});
-
-	// 创建一个范围对象
-	const decoration = { range: editor.selection };
-
-	// 设置装饰器
-	editor.setDecorations(decorationType, [decoration]);
-
-	// 定时清除装饰器
-	setTimeout(() => {
-		decorationType.dispose();
-	}, 3000);
-}
-
 
 // 函数：获取用户配置的 API Key
 async function getApiKey(): Promise<string | undefined> {
@@ -147,8 +115,12 @@ export function activate(context: vscode.ExtensionContext) {
 			const selectedText = editor.document.getText(selection);
 			// vscode.window.showInformationMessage(`选中的文本是: ${selectedText}`);
 			// tips(editor);
+
+			// let position = selection.end;
+			// showTooltip(editor, selectedText, position);
+
 			fanyiByYoudao(selectedText.toString()).then((txt) => {
-				vscode.window.showInformationMessage(txt);
+				showInfo(txt);
 			});
 		}
 	});
