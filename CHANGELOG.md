@@ -7,3 +7,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+- 1.0.7 - 2024-07-29
+  - 添加按钮：复制翻译结果
+  - 右键菜单中添加翻译选项
