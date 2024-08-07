@@ -11,3 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 添加
 - 添加按钮：复制翻译结果
 - 右键菜单中添加翻译选项
+
+## [1.0.8] - 2024-08-07
+
+### 添加
+- 添加功能：将含有`:`的文本`转换为键值对`（功能已添加到右键菜单）

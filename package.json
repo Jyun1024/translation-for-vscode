@@ -2,7 +2,7 @@
   "name": "translation-for-vscode",
   "displayName": "Translation for VSCode",
   "description": "Translation for VSCode是一个基于 VSCode 的英汉互译 翻译扩展插件。它集成了有道翻译、百度翻译、DeepL 翻译、OpenAI 翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "Jyun",
   "icon": "logo.png",
   "repository": {
@@ -33,6 +33,10 @@
       {
         "command": "translation-for-vscode.translate",
         "title": "翻译选中的文本"
+      },
+      {
+        "command": "translation-for-vscode.devkit.to-key-value",
+        "title": "转换为键值对"
       }
     ],
     "menus": {
@@ -41,6 +45,11 @@
           "command": "translation-for-vscode.translate",
           "when": "editorTextFocus && editorHasSelection",
           "group": "navigation"
+        },
+        {
+          "command": "translation-for-vscode.devkit.to-key-value",
+          "when": "editorTextFocus && editorHasSelection",
+          "group": "1_modification"
         }
       ]
     },
