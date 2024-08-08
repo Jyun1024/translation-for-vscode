@@ -29,3 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 修复
 - 修复Bug
+
+## [1.0.11] - 2024-08-08
+### 修复
+- 提高插件图标清晰度

@@ -1,8 +1,8 @@
 {
   "name": "translation-for-vscode",
   "displayName": "Translation for VSCode",
-  "description": "Translation for VSCode是一个基于 VSCode 的英汉互译 翻译扩展插件。它集成了有道翻译、百度翻译、DeepL 翻译、OpenAI 翻译等众多翻译引擎，在你的 IDE 内随时对想要翻译的文本、代码注释、代码文档等进行翻译。",
-  "version": "1.0.10",
+  "description": "Translation for VSCode是一个基于 VSCode 的英汉互译翻译插件。",
+  "version": "1.0.11",
   "publisher": "Jyun",
   "icon": "logo.png",
   "repository": {
@@ -38,7 +38,7 @@
             "百度翻译开放平台可免费申请APPID和密钥",
             "暂不支持",
             "DeepL免费版，自称全世界最准确的翻译，限制50万字符/月，速度较慢",
-            "DeepL专业版，我没K，没条件测试"
+            "DeepL专业版"
           ]
         },
         "translation-for-vscode.baidu.appid": {
